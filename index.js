@@ -21,7 +21,7 @@ var newArray = document.querySelectorAll('.grand-node');
   for (let i = 0; i < newArray.length; i++){
   var deepest = newArray[i].children
   for (let i = 0; i < deepest.length; i++){
- return deepest
+ deepest.innerHTML
   }
   }
   }
