@@ -21,6 +21,7 @@ function helperFunction(element){
 if (element.hasChildNodes()) {
   return helperFunction(element)
 }
+
 }
 
 function deepestChild() {
