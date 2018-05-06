@@ -19,8 +19,10 @@ function increaseRankBy(n) {
 
 function helperFunction(element){
 if (element.hasChildNodes()) {
-  helperFunction(element)
+  return helperFunction(element)
 }
+}
+
 function deepestChild() {
   
 //var newArray = document.querySelectorAll('#grand-node');
