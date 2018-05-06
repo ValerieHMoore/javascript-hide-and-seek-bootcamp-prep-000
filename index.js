@@ -18,15 +18,11 @@ function increaseRankBy(n) {
 
 function helperFunction(element){
 if (element.hasChildNodes()) {
-  return helperFunction(element)
+  return element
 }
-var functionHolder = function (counter) {
-    output(counter);
-    if (counter > 0) {
-        functionHolder(counter-1);
-    }
+helperFunction()
 }
-}
+
 
 function deepestChild() {
   
