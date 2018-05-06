@@ -22,12 +22,12 @@ if (element.hasChildNodes()) {
   
 }
 function deepestChild() {
-var newArray = document.querySelectorAll('#grand-node');
-  for (let i = 0; i < newArray.length; i++){
-debugger
-  var deepestKid = newArray[i].children
-  for (let i = 0; i < deepestKid.length; i++){
- deepestKid[i].innerHTML 
+  
+//var newArray = document.querySelectorAll('#grand-node');
+  //for (let i = 0; i < newArray.length; i++){
+//  var deepestKid = newArray[i].children
+  //for (let i = 0; i < deepestKid.length; i++){
+ //deepestKid[i].innerHTML 
   }
   }
   }
