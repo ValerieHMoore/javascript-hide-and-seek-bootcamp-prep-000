@@ -16,12 +16,16 @@ function increaseRankBy(n) {
 }
 }
 
-
 function helperFunction(element){
 if (element.hasChildNodes()) {
   return helperFunction(element)
 }
-
+var functionHolder = function (counter) {
+    output(counter);
+    if (counter > 0) {
+        functionHolder(counter-1);
+    }
+}
 }
 
 function deepestChild() {
