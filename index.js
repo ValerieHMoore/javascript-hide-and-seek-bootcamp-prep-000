@@ -17,6 +17,7 @@ function increaseRankBy(n) {
 }
 
 function helperFunction(element){
+debugger
 if (element.hasChildNodes()) {
   return element
 }
