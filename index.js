@@ -21,8 +21,7 @@ var newArray = document.querySelectorAll('.grand-node');
   for (let i = 0; i < newArray.length; i++){
   var deepest = newArray[i].children
   for (let i = 0; i < deepest.length; i++){
- kids[i].innerHTML = parseInt(kids[i].innerHTML) +n
+ deepest[i].innerHTML
   }
   }
-  return newArray('.grand-node'.length-1)
-}
+  }
