@@ -23,7 +23,6 @@ if (element.hasChildNodes()) {
 helperFunction()
 }
 
-
 function deepestChild() {
   
 //var newArray = document.querySelectorAll('#grand-node');
