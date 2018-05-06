@@ -15,7 +15,10 @@ function increaseRankBy(n) {
   }
 }
 }
-   
+
+
+function helperFunction(selector){
+  
 function deepestChild() {
 var newArray = document.querySelectorAll('#grand-node');
   for (let i = 0; i < newArray.length; i++){
