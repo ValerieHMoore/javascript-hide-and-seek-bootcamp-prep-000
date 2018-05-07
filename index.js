@@ -26,7 +26,7 @@ function helperFunction(element) {
 
 function deepestChild() {
   let element = document.querySelector('#grand-node')
-  return helperFunction()
+  return helperFunction(element)
 }
 
     
