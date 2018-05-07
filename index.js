@@ -17,8 +17,8 @@ function increaseRankBy(n) {
 }
 
 function helperFunction(element){
-if (element.hasChildNodes()) {
-  return helperFunction(element.children[0])
+  if (element.hasChildNodes()) {
+    return helperFunction(element.children[0])
 }else{
 return element
   }
