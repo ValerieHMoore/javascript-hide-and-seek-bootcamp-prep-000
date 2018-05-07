@@ -18,10 +18,7 @@ function increaseRankBy(n) {
 
 function helperFunction(element){
 if (element.hasChildNodes()) {
-  debugger
-  return element
-}
-helperFunction()
+  return helperFunction()
 }
 
 function deepestChild() {
