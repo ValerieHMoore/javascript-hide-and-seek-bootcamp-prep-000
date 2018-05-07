@@ -17,8 +17,7 @@ function increaseRankBy(n) {
 }
 
 function helperFunction(element) {
-  debugger
-  if (element.children.length > 0) {
+    if (element.children.length > 0) {
     return helperFunction(element.children[0])
   } else {
     return element
